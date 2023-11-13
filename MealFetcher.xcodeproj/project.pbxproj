@@ -11,6 +11,8 @@
 		130B44AE2B01DF3200ED5C0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44AD2B01DF3200ED5C0C /* ContentView.swift */; };
 		130B44B02B01DF3300ED5C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130B44AF2B01DF3300ED5C0C /* Assets.xcassets */; };
 		130B44B32B01DF3300ED5C0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130B44B22B01DF3300ED5C0C /* Preview Assets.xcassets */; };
+		130B44BF2B01E1A500ED5C0C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44BE2B01E1A500ED5C0C /* Meal.swift */; };
+		130B44C12B01E3D300ED5C0C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44C02B01E3D300ED5C0C /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		130B44AD2B01DF3200ED5C0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		130B44AF2B01DF3300ED5C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		130B44B22B01DF3300ED5C0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		130B44BE2B01E1A500ED5C0C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		130B44C02B01E3D300ED5C0C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		130B44BA2B01E0DE00ED5C0C /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				130B44C02B01E3D300ED5C0C /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 		130B44BD2B01E0FB00ED5C0C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				130B44BE2B01E1A500ED5C0C /* Meal.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,7 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130B44C12B01E3D300ED5C0C /* NetworkManager.swift in Sources */,
 				130B44AE2B01DF3200ED5C0C /* ContentView.swift in Sources */,
+				130B44BF2B01E1A500ED5C0C /* Meal.swift in Sources */,
 				130B44AC2B01DF3200ED5C0C /* MealFetcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
