@@ -28,8 +28,9 @@ class NetworkManager {
             
             if let data = data {
                 do {
-                    let meals = try JSONDecoder().decode([Meal].self, from: data)
-                    completion(meals)
+                    let decoder = JSONDecoder()
+                    let mealResponse = try? decoder.decode(MealResponse.self, from: data)
+                    completion(mealResponse?.meals)
                 } catch {
                     print("Error decoding meals data: ", error.localizedDescription)
                     completion(nil)
