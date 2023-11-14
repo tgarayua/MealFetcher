@@ -1,8 +1,8 @@
-# MealFetcher
+# Dessert Fetcher
 
 ## Overview
 
-Meal Explorer is an iOS app that allows users to explore and discover various meals along with their detailed instructions and ingredients.
+Dessert Fetcher is an iOS app that allows users to explore and discover various meals along with their detailed instructions and ingredients.
 
 ## Features
 
