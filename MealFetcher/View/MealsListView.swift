@@ -14,7 +14,7 @@ struct MealsListView: View {
         NavigationView {
             VStack {
                 List(viewModel.meals, id: \.idMeal) { meal in
-                    MealTitleView(meal: meal)
+                    MealCardView(meal: meal)
                         .padding()
                 }
             }
