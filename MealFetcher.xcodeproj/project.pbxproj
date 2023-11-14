@@ -18,6 +18,7 @@
 		130B44D32B032E8700ED5C0C /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44D22B032E8700ED5C0C /* MealDetail.swift */; };
 		130B44D52B0330B600ED5C0C /* MealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44D42B0330B600ED5C0C /* MealDetailsView.swift */; };
 		138463F72B04129100F519E0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138463F62B04129100F519E0 /* SearchBar.swift */; };
+		138463F92B04176900F519E0 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138463F82B04176900F519E0 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		130B44D22B032E8700ED5C0C /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
 		130B44D42B0330B600ED5C0C /* MealDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsView.swift; sourceTree = "<group>"; };
 		138463F62B04129100F519E0 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		138463F82B04176900F519E0 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				130B44AD2B01DF3200ED5C0C /* MealsListView.swift */,
 				130B44C42B01EFCF00ED5C0C /* MealCardView.swift */,
 				130B44D42B0330B600ED5C0C /* MealDetailsView.swift */,
+				138463F82B04176900F519E0 /* SplashScreenView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				130B44D32B032E8700ED5C0C /* MealDetail.swift in Sources */,
 				138463F72B04129100F519E0 /* SearchBar.swift in Sources */,
 				130B44BF2B01E1A500ED5C0C /* Meal.swift in Sources */,
+				138463F92B04176900F519E0 /* SplashScreenView.swift in Sources */,
 				130B44C32B01E5C100ED5C0C /* MealsViewModel.swift in Sources */,
 				130B44AC2B01DF3200ED5C0C /* MealFetcherApp.swift in Sources */,
 			);

@@ -25,7 +25,9 @@ struct MealCardView: View {
                             .cornerRadius(30)
                     case .failure:
                         Image(systemName: "photo")
-                        Text("failed to load image")
+                            .frame(width: 300, height: 300)
+                        Text("Failed to load image")
+                            .font(Font.custom("Baskerville-Bold", size: 26))
                     case .empty:
                         ProgressView("Loading...")
                     }
@@ -35,7 +37,7 @@ struct MealCardView: View {
                 
                 VStack(alignment: .leading, spacing: 5) {
                     Text(meal.strMeal)
-                        .font(.title)
+                        .font(Font.custom("Baskerville-Bold", size: 26))
                 }
             }
             .padding([.leading, .bottom], 17)

@@ -11,7 +11,7 @@ import SwiftUI
 struct MealFetcherApp: App {
     var body: some Scene {
         WindowGroup {
-            MealsListView()
+            SplashScreenView()
         }
     }
 }

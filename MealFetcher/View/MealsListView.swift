@@ -33,7 +33,7 @@ struct MealsListView: View {
                     }
                 }
             }
-            .navigationTitle("Meals")
+            .navigationTitle("Desserts")
             .ignoresSafeArea(edges: .bottom)
             .onAppear {
                 viewModel.fetchMealsVM()
