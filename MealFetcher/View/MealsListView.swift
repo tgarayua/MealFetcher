@@ -9,13 +9,27 @@ import SwiftUI
 
 struct MealsListView: View {
     @StateObject private var viewModel = MealsViewModel()
-    
+    @State private var selectedMeal: Meal?
+    @State private var selectedIndex: Int?
+
     var body: some View {
         NavigationView {
             VStack {
-                List(viewModel.meals, id: \.idMeal) { meal in
-                    MealCardView(meal: meal)
-                        .padding()
+                List {
+                    ForEach(Array(viewModel.meals.enumerated()), id: \.element.idMeal) { index, meal in
+                        NavigationLink(
+                            destination: MealDetailsView(meal: meal),
+                            tag: index,
+                            selection: $selectedIndex
+                        ) {
+                            MealCardView(meal: meal)
+                                .padding()
+                                .onTapGesture {
+                                    selectedMeal = meal
+                                    selectedIndex = index
+                                }
+                        }
+                    }
                 }
             }
             .navigationTitle("Meals")
@@ -27,6 +41,8 @@ struct MealsListView: View {
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

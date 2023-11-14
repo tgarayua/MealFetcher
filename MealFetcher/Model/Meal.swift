@@ -11,8 +11,12 @@ struct MealResponse: Codable {
     let meals: [Meal]
 }
 
-struct Meal: Codable {
+struct Meal: Codable, Identifiable {
     let strMeal: String
     let strMealThumb: String
     let idMeal: String
+    
+    var id: String {
+        return idMeal
+    }
 }

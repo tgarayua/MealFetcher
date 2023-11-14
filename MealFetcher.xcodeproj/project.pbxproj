@@ -15,6 +15,8 @@
 		130B44C12B01E3D300ED5C0C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44C02B01E3D300ED5C0C /* NetworkManager.swift */; };
 		130B44C32B01E5C100ED5C0C /* MealsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44C22B01E5C100ED5C0C /* MealsViewModel.swift */; };
 		130B44C52B01EFCF00ED5C0C /* MealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44C42B01EFCF00ED5C0C /* MealCardView.swift */; };
+		130B44D32B032E8700ED5C0C /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44D22B032E8700ED5C0C /* MealDetail.swift */; };
+		130B44D52B0330B600ED5C0C /* MealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B44D42B0330B600ED5C0C /* MealDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		130B44C02B01E3D300ED5C0C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		130B44C22B01E5C100ED5C0C /* MealsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewModel.swift; sourceTree = "<group>"; };
 		130B44C42B01EFCF00ED5C0C /* MealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCardView.swift; sourceTree = "<group>"; };
+		130B44D22B032E8700ED5C0C /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		130B44D42B0330B600ED5C0C /* MealDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 			children = (
 				130B44AD2B01DF3200ED5C0C /* MealsListView.swift */,
 				130B44C42B01EFCF00ED5C0C /* MealCardView.swift */,
+				130B44D42B0330B600ED5C0C /* MealDetailsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				130B44BE2B01E1A500ED5C0C /* Meal.swift */,
+				130B44D22B032E8700ED5C0C /* MealDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,9 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130B44D52B0330B600ED5C0C /* MealDetailsView.swift in Sources */,
 				130B44C52B01EFCF00ED5C0C /* MealCardView.swift in Sources */,
 				130B44C12B01E3D300ED5C0C /* NetworkManager.swift in Sources */,
 				130B44AE2B01DF3200ED5C0C /* MealsListView.swift in Sources */,
+				130B44D32B032E8700ED5C0C /* MealDetail.swift in Sources */,
 				130B44BF2B01E1A500ED5C0C /* Meal.swift in Sources */,
 				130B44C32B01E5C100ED5C0C /* MealsViewModel.swift in Sources */,
 				130B44AC2B01DF3200ED5C0C /* MealFetcherApp.swift in Sources */,
