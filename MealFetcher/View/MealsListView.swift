@@ -16,7 +16,8 @@ struct MealsListView: View {
         NavigationView {
             VStack {
                 List {
-                    ForEach(Array(viewModel.meals.enumerated()), id: \.element.idMeal) { index, meal in
+                    SearchBar(text: $viewModel.searchQuery)
+                    ForEach(Array(viewModel.filteredMeals.enumerated()), id: \.element.idMeal) { index, meal in
                         NavigationLink(
                             destination: MealDetailsView(meal: meal),
                             tag: index,
