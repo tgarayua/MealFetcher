@@ -16,8 +16,6 @@
    - Implemented asynchronous API calls and lazy image loading to optimize bandwidth usage.
 3. **User Experience:**
    - Added search functionality, pull-to-refresh, and a visually appealing UI to enhance usability.
-4. **Unit Testing:**
-   - Created testable components to ensure the app is reliable and free of regressions.
 
 These areas were prioritized because they directly contribute to a high-quality app that is both functional and maintainable.
 
