@@ -25,10 +25,10 @@ These areas were prioritized because they directly contribute to a high-quality 
 ### Approximately how long did you spend working on this project? How did you allocate your time?
 - **Total Time:** ~5 hours
   - **Research and Planning:** 1 hour
-  - **API Integration and Networking:** 1 hours
-  - **UI Design and Implementation:** 1 hours
-  - **Testing and Debugging:** 1 hours
-  - **Writing ReadMe Document:** 1 hours
+  - **API Integration and Networking:** 1 hour
+  - **UI Design and Implementation:** 1 hour
+  - **Testing and Debugging:** 1 hour
+  - **Writing ReadMe Document:** 1 hour
 
 ## Trade-offs and Decisions
 ### Did you make any significant trade-offs in your approach?
